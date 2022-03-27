@@ -13,6 +13,9 @@ def test_firstProgram(setup):
 @pytest.mark.xfail
 def test_SecondGreetCreditCard():
     print("Good Morning")
+def test_SecondGreetCreditCard1():
+    print("Good Morning")
+    
 
 
 def test_crossBrowser(crossBrowser):
